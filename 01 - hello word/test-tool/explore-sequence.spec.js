@@ -6,10 +6,11 @@ import notMockable from "./sequence/not-mockable";
 console.log(mockable);
 console.log(notMockable);
 
+// REPLACE IMPLEMENTATION OF THE MODULE
 jest.mock('./sequence/mockable', () => {
   console.log('mock applied');
   return 'mocked mockable'
-})
+});
 
 console.log(mockable);
 console.log(notMockable);

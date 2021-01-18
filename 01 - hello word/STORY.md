@@ -16,13 +16,14 @@ Visit `01 - hello word/red-green-refactor/say-hello-to-tdd.spec.js`.
 ## What was learned?
 * Red Green Refactor
 * Code Path
-* [Snapshot testing](https://jestjs.io/docs/en/snapshot-testing)
 * [Child Test Pattern](../patterns/child-test.md)
 
 # Why does knowing your tools matter?
 
 ## Background
-I want to be sure that grandpa Rick gets drunk in his usual manner. I wrote a test for examining it.
+I want to be sure that grandpa Rick
+gets drunk in his usual manner(after he takes two sips). 
+I wrote a test for examining it.
 
 ## Explore
 `01 - hello word/test-tool/grandpa.spec.js`
@@ -32,14 +33,15 @@ I want to be sure that grandpa Rick gets drunk in his usual manner. I wrote a te
 * What happen if we change tests order?
 * How to make the test more reliable?
 
+## What was learned?
+* [Snapshot testing](https://jestjs.io/docs/en/snapshot-testing)
+* [Jest execution life-cycle](https://jestjs.io/docs/en/setup-teardown)
+* [Isolated Test Pattern](../patterns/isolated-test.md)
+
 ## Bonus
 
 Can you say what will be in the console if I run `01 - hello word/test-tool/explore-sequence.spec.js`
 * Why it's important to understand test execution sequence?
-
-## What was learned?
-* [Jest execution life-cycle](https://jestjs.io/docs/en/setup-teardown)
-* [Isolated Test Pattern](../patterns/isolated-test.md)
 
 # Why does practice matter?
 

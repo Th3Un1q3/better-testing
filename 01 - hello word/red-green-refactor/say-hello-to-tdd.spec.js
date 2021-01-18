@@ -8,11 +8,13 @@ const DIMENSION_CONTENT = {
 
 const ADULT_DIMENSION_IDS = ['Beta B-45'];
 
+class RestrictedNavigationError extends Error {}
+
 const isBetaDimension = (dimensionID) => ADULT_DIMENSION_IDS.includes(dimensionID);
 
 const exploreDimensionAsChildren = (dimensionID) => {
   if(isBetaDimension(dimensionID)) {
-    throw new Error('This is adults only dimension, this section is closed for you')
+    throw new RestrictedNavigationError('This is adults only dimension, this section is closed for you')
   }
 
   return DIMENSION_CONTENT[dimensionID];

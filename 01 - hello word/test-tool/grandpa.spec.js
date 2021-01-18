@@ -13,7 +13,7 @@ const BASE_ALCOHOL_SCORE = 50;
 const soberSpeech = (phrase) => phrase;
 
 const drunkSpeech = (phrase) => {
-  const interruptionsFrequency = _.random(phrase.length - 1);
+  const interruptionsFrequency = _.random(3,phrase.length - 1);
   const partsOfPhrase = _.chunk(phrase, interruptionsFrequency);
 
   return partsOfPhrase.map((partial, index) => {
