@@ -7,4 +7,8 @@ module.exports = {
   testLocationInResults: true,
   timers: "fake",
   verbose: true,
+  "watchPlugins": [
+    "jest-watch-typeahead/filename",
+    "jest-watch-typeahead/testname"
+  ]
 };

@@ -39,8 +39,6 @@ I wrote a test for examining it.
 * [Jest execution life-cycle](https://jestjs.io/docs/en/setup-teardown)
 * [Isolated Test Pattern](../patterns/isolated-test.md)
 
-
-
 # Why does practice matter?
 
 ## Sequence
