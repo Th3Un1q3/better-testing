@@ -1,10 +1,11 @@
 # Why do scientists test first?
 
 ## Background
-I want to design multiverse explorer that is safe for children, and does not allow to explore adult parallel universes.
+I want to design multiverse explorer that is safe for children,
+and does not allow to explore adult parallel universes.
 
 ## Explore
-Visit `01 - hello word/red-green-refactor/say-hello-to-tdd.spec.js`.
+Visit `01/src/say-hello-to-tdd.spec.js`.
 * Can you find what's wrong with this test?
 * What was done right in the test?
 * How it can be improved?
@@ -26,7 +27,7 @@ gets drunk in his usual manner(after he takes two sips).
 I wrote a test for examining it.
 
 ## Explore
-`01 - hello word/test-tool/grandpa.spec.js`
+`01/src/grandpa.spec.js`
 * What condition [boundary is](https://www.google.com/search?q=boundary+conditions+in+software+testing)?
 * Was the boundary tested correctly?
 * What is the purpose of test name?
@@ -40,7 +41,7 @@ I wrote a test for examining it.
 
 ## Bonus
 
-Can you say what will be in the console if I run `01 - hello word/test-tool/explore-sequence.spec.js`
+Can you say what will be in the console if I run `01/src/explore-sequence.spec.js`
 * Why it's important to understand test execution sequence?
 
 # Why does practice matter?

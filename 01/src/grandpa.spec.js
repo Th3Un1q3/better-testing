@@ -3,6 +3,7 @@ import _ from 'lodash';
 const DRUNK_RICK_SOUNDS = [
   'burp',
   'urr',
+  'wubba lubba dub dub',
   'aaaae',
   'I love you Morty you know',
   'I really appreciate your help',
