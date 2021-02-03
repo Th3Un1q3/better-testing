@@ -39,13 +39,17 @@ I wrote a test for examining it.
 * [Jest execution life-cycle](https://jestjs.io/docs/en/setup-teardown)
 * [Isolated Test Pattern](../patterns/isolated-test.md)
 
-## Bonus
 
-Can you say what will be in the console if I run `01/src/explore-sequence.spec.js`
-* Why it's important to understand test execution sequence?
 
 # Why does practice matter?
 
+## Sequence
+Can you say what will be in the console if I run `01/src/explore-sequence.spec.js`
+* Why it's important to understand test execution sequence?
+
+## Boundaries
+
 Write `inRange` function that accepts a number low and high border of the range.
+Write `sqrt` function that accepts a number and returns a square root of it
 
 Try to strictly follow red green refactor pattern.
