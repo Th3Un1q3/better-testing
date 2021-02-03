@@ -48,12 +48,18 @@ class RickSanchez {
   get #isDrunk() {
     const twoTimesDrink = alcoholTakenPerTime * 2;
     const toBeDrunkScore = BASE_ALCOHOL_SCORE + twoTimesDrink;
-    return this.alcoholScore > toBeDrunkScore;
+    return this.alcoholScore >= toBeDrunkScore;
   }
 }
 
 describe(RickSanchez, () => {
-  const grandpa = new RickSanchez();
+  let grandpa;
+  beforeEach(() => {
+    grandpa = new RickSanchez();
+  });
+  // Same grandpa
+
+
 
   describe('when drinks from his flask one time', () => {
     beforeEach(() => {
@@ -65,13 +71,14 @@ describe(RickSanchez, () => {
     });
   });
 
+
   describe('when drinks twice from his flask', () => {
     beforeEach(() => {
       grandpa.drinkFromFlask();
       grandpa.drinkFromFlask();
     });
 
-    test('should talk as drunk', () => {
+    test('should ', () => {
       const drunkSpeechSigns = expect.stringMatching(new RegExp(`(${DRUNK_RICK_SOUNDS.join('|')})`));
 
       console.log(grandpa.areYouAllRight());
@@ -79,4 +86,5 @@ describe(RickSanchez, () => {
       expect(grandpa.areYouAllRight()).toEqual(drunkSpeechSigns);
     })
   })
+
 });
