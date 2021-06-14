@@ -1,3 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`exploreDimensionAsChildren when we try to explore adult dimension should restrict us from doing that 1`] = `"This is adults only dimension, this section is closed for you"`;

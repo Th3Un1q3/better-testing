@@ -3,7 +3,7 @@
 # Better Testing Course
 > or How I Learned to Stop Worrying and Love the Tests
 
-> ![No time for testing](./assets/no_time_for_testing_loop.gif)
+> ![No time for testing](./lessons/assets/no_time_for_testing_loop.gif)
 > 
 > "No time for testing" loop
 

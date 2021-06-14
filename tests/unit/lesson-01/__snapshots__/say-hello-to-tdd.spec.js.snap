@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`exploreDimensionAsChildren should throw an error when adults only dimension visited 1`] = `"Adults only asfas!"`;
