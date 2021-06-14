@@ -1,30 +1,14 @@
-/* eslint-disable import/first */
 console.log('file start');
 
-import mockable from './sequence/mockable';
-import notMockable from './sequence/not-mockable';
-
-console.log(mockable);
-console.log(notMockable);
-
-// REPLACE IMPLEMENTATION OF THE MODULE
-jest.mock('./sequence/mockable', () => {
-  console.log('mock applied');
-  return 'mocked mockable';
-});
-
-console.log(mockable);
-console.log(notMockable);
-
-describe('Sequence sample', () => {
+describe('Sequence base sample', () => {
   console.log('main context');
-
-  beforeAll(() => {
-    console.log('beforeAll');
-  });
 
   beforeEach(() => {
     console.log('main context beforeEach');
+  });
+
+  beforeAll(() => {
+    console.log('beforeAll');
   });
 
   afterAll(() => {
