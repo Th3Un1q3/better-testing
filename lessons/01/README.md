@@ -5,7 +5,7 @@ I want to design multiverse explorer that is safe for children,
 and does not allow to explore adult parallel universes.
 
 ## Explore
-Visit `01/src/say-hello-to-tdd.spec.js`.
+Visit `say-hello-to-tdd.spec.js`.
 * Can you find what's wrong with this test?
 * What was done right in the test?
 * How it can be improved?

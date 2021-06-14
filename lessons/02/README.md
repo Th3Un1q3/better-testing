@@ -29,6 +29,4 @@
 - Strictly follow [Red Green Refactor](../../patterns/red-green-refactor.md) pattern.
 - Use [Fake it till you make it](../../patterns/fake-it.md) pattern
 ### Questions
-- in which cases `fake it till you make it` is applicable?
-
-
+- in which cases `fake it till you make it` is applicable

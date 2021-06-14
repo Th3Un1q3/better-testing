@@ -1,13 +1,12 @@
 <template>
   <div class="lessons-index">
-    Lessons list
+    <router-link to="/lessons/02">Lesson #2</router-link>
   </div>
 </template>
 
-<script lang="ts">
+<script lang="js">
 import { defineComponent } from 'vue';
-import lesson from '../../lessons/02/README.md?raw'
-console.log(lesson);
+
 export default defineComponent({
   name: 'LessonsIndex',
 });
