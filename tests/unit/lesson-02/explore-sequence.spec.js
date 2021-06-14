@@ -1,7 +1,8 @@
+/* eslint-disable import/first */
 console.log('file start');
 
-import mockable from "./sequence/mockable";
-import notMockable from "./sequence/not-mockable";
+import mockable from './sequence/mockable';
+import notMockable from './sequence/not-mockable';
 
 console.log(mockable);
 console.log(notMockable);
@@ -9,7 +10,7 @@ console.log(notMockable);
 // REPLACE IMPLEMENTATION OF THE MODULE
 jest.mock('./sequence/mockable', () => {
   console.log('mock applied');
-  return 'mocked mockable'
+  return 'mocked mockable';
 });
 
 console.log(mockable);
@@ -19,7 +20,7 @@ describe('Sequence sample', () => {
   console.log('main context');
 
   beforeAll(() => {
-    console.log('beforeAll')
+    console.log('beforeAll');
   });
 
   beforeEach(() => {
@@ -43,6 +44,6 @@ describe('Sequence sample', () => {
 
     test('child context test', () => {
       console.log('child context test execution');
-    })
-  })
-})
+    });
+  });
+});

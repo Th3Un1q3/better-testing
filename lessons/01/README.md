@@ -15,7 +15,7 @@ Visit `01/src/say-hello-to-tdd.spec.js`.
 * What is appropriate application for snapshot testing?
 
 ## What was learned?
-* Red Green Refactor
+* [Red Green Refactor](../../patterns/red-green-refactor.md)
 * Code Path
 * [Child Test Pattern](../../patterns/child-test.md)
 
