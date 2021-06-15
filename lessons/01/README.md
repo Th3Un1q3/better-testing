@@ -15,9 +15,9 @@ Visit `say-hello-to-tdd.spec.js`.
 * What is appropriate application for snapshot testing?
 
 ## What was learned?
-* [Red Green Refactor](../../patterns/red-green-refactor.md)
+* [Red Green Refactor](../patterns/red-green-refactor.md)
 * Code Path
-* [Child Test Pattern](../../patterns/child-test.md)
+* [Child Test Pattern](../patterns/child-test.md)
 
 # Why does knowing your tools matter?
 
@@ -37,4 +37,4 @@ I wrote a test for examining it.
 ## What was learned?
 * [Snapshot testing](https://jestjs.io/docs/en/snapshot-testing)
 * [Jest execution life-cycle](https://jestjs.io/docs/en/setup-teardown)
-* [Isolated Test Pattern](../../patterns/isolated-test.md)
+* [Isolated Test Pattern](../patterns/isolated-test.md)
